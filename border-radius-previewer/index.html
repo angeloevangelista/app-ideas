@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Border Radius Previewer</title>
+</head>
+<body>
+  <div id="container">
+    <div id="title">
+      <h1>Border Radius Previewer</h1>
+    </div>
+    
+    <span id="advice">Please, type a value less than 300px ;p</span>
+
+    <div id="box">
+      <div id="top">
+        <input type="number" name="tl" class="radius-input" id="top-left" value="0" min="0">
+        <input type="number" name="tr" class="radius-input" id="top-right" value="0" min="0">
+      </div>
+
+      <textarea id="css-output" readonly>Hey! Change the values to see the result</textarea>
+
+      <div id="bottom">
+        <input type="number" name="bl" class="radius-input" id="bottom-left" value="0" min="0">
+        <input type="number" name="br" class="radius-input" id="bottom-right" value="0" min="0">
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
